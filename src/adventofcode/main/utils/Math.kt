@@ -1,5 +1,11 @@
 package utils
 
+class Vector(val x: Int, val y: Int) {
+    override fun toString(): String {
+        return "$x,$y"
+    }
+}
+
 fun gcd(a: Long, b: Long): Long {
     var a = a
     var b = b
